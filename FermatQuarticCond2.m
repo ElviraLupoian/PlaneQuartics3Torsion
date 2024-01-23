@@ -1,6 +1,6 @@
 // we compute the wild conductor exponent at 2 of the Fermat quartic
 
-load "FQ3TorsionSubgroup.m";
+load "FermatQuartic3TorsionSubgroup.m";
 
 Q2 := pAdicField(2, 500) ;
 Zx<x> := PolynomialRing(Q2) ;

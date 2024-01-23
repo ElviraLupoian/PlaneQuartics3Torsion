@@ -439,5 +439,5 @@ dens := [#G0/ dens[i] : i in [1..#dens] ] ;
 tt := [ invs[i]/dens[i] : i in [1..#dens] ] ;
 
 n2 := &+tt ;
-
+print "The wild part of the local conductor exponent at 2 is:";
 n2;
